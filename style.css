@@ -114,20 +114,12 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
-@media (max-width: 500px) {
-  .card {
+@media only screen and (max-width: 500px) {
+    body{
+        background-color: grey;
+    }
+    .card {
     flex-direction: column;
     align-items: center;
-  }
-    body {
-      background-color: grey;
-    }
-
-  .user-form {
-    max-width: 400px;
-  }
-
-  .user-info {
-    margin-left: 0;
   }
 }
